@@ -1,0 +1,36 @@
+/* General Body Styling */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar Tweaks */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #ffc107 !important; /* Gold color for branding */
+}
+
+/* Form Container Styling (for login/register/booking) */
+.form-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Hero Section (for index.php later) */
+.hero-section {
+    background: url('../img/restaurant-bg.jpg') no-repeat center center;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
